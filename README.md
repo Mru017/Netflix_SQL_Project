@@ -49,6 +49,7 @@ SELECT
 FROM NETFLIX
 GROUP BY type
 ```
+Objective: Determine the distribution of content types on Netflix.
 
 ### 2. Find the most common rating for movies and TV shows
 
@@ -137,8 +138,7 @@ SELECT
 FROM NETFLIX
 GROUP BY 1
 ``` 
-### 10.Find each year and the average numbers of content release in India on netflix. 
-### return top 5 year with highest avg content release!
+### 10.Find each year and the average numbers of content release in India on netflix, return top 5 year with highest avg content release!
 
 ```sql
 total content 333/972
